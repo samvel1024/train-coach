@@ -1,0 +1,24 @@
+{
+  "ftp_history": [
+    {"from": "2026-01-01", "ftp": 250}
+  ],
+  "lthr": null,
+  "goals": {
+    "focus": "base",
+    "event_name": null,
+    "event_date": null,
+    "targets": {
+      "ftp": null,
+      "weight_kg": null,
+      "ctl": null,
+      "min_weekly_hours": 6,
+      "outcome": null
+    }
+  },
+  "plan": {
+    "availability_min": null,
+    "target_ctl_ramp_per_week": 4,
+    "recovery_week_every": 4,
+    "key_sessions_per_week": 2
+  }
+}

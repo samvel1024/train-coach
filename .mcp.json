@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "strava": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@r-huijts/strava-mcp-server"],
+      "env": {}
+    },
+    "intervals-icu": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["intervals-icu-mcp"],
+      "env": {
+        "INTERVALS_ICU_API_KEY": "${INTERVALS_API_KEY}",
+        "INTERVALS_ICU_ATHLETE_ID": "${INTERVALS_ATHLETE_ID}"
+      }
+    },
+    "weather": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@dangahagan/weather-mcp"],
+      "env": {}
+    }
+  }
+}

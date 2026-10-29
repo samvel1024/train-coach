@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/noop.py": { "includeFiles": "noop_protocol.py", "maxDuration": 60 }
+  }
+}

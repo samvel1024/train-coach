@@ -1,0 +1,22 @@
+# Personal training data (Strava downloads, derived metrics, logs)
+data/
+
+# Personal goals / FTP history — copy coach_config.example.json instead
+coach_config.json
+
+# Secrets and local state
+.env
+.env.*
+noop_bridge/state.sqlite*
+noop_bridge/receiver.log
+noop_bridge/cloud/.vercel
+
+# Per-user Claude Code settings
+.claude/settings.local.json
+
+__pycache__/
+*.pyc
+.DS_Store
+
+# Regression tests pinned to the original author's own rides
+tests/test_real_data.py
